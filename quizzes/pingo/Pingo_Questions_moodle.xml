@@ -146,10 +146,10 @@
     <answer fraction='0'>
       <text>32 Bit</text>
     </answer>
-    <answer fraction='100'>
+    <answer fraction='0'>
       <text>96 Bit</text>
     </answer>
-    <answer fraction='0'>
+    <answer fraction='100'>
       <text>128 Bit</text>
     </answer>
     <answer fraction='0'>
@@ -199,7 +199,7 @@
     <answer fraction='0'>
       <text>MD5(&lt;password&gt;)</text>
     </answer>
-    <answer fraction='0'>
+    <answer fraction='100'>
       <text>none of them</text>
     </answer>
     <single>true</single>
@@ -254,17 +254,6 @@
     </answer>
     <single>true</single>
     <answernumbering>abc</answernumbering>
-  </question>
-  <question type='shortanswer'>
-    <name>
-      <text>Textest</text>
-    </name>
-    <questiontext format='html'>
-      <text>Textest</text>
-    </questiontext>
-    <answer fraction='100'>
-      <text> </text>
-    </answer>
   </question>
   <question type='multichoice'>
     <name>

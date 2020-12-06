@@ -44,7 +44,7 @@ C) 128 Bit
 D) 256 Bit
 E) 512 Bit
 F) 1024 Bit
-ANSWER: B
+ANSWER: C
 
 For which HTTP authentication method do you have better password storage possibilities?
 A) Basic
@@ -55,7 +55,7 @@ Which algorithm would you use for password storage?
 A) SHA1(<password>)
 B) MD5(<password>)
 C) none of them
-ANSWER: 
+ANSWER: C
 
 Which cipher attribute ensures the security of previous sessions if the server's long-term secret is compromised?
 A) PFS
@@ -70,9 +70,6 @@ B) 1.3
 C) 1.4
 D) 1.5
 ANSWER: B
-
-Textest
-ANSWER: 
 
 Which messenger is a good example for the principle "Open Design"?
 A) WhatsApp
