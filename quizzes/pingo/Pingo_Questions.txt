@@ -1,0 +1,121 @@
+Gibt es Dinge die euch sehr gut (+) oder gar nicht gut (-) gefallen haben? Und hat euch irgendetwas gefehlt (X) ?
+ANSWER: 
+
+Das Tempo der Erklärungen war
+A) etwas zu schnell - habe einige Dinge nicht richtig verstanden
+B) genau richtig - war alles verständlich
+C) etwas zu langsam - teilweise bisschen langweilig
+ANSWER: 
+
+Der inhaltliche Detailgrad war
+A) etwas zu detailliert
+B) genau richtig
+C) hätte gerne noch etwas mehr in die Tiefe gehen können
+ANSWER: 
+
+Alles in allem fand ich die Vorlesung
+A) Top
+B) Ganz gut
+C) Geht so
+D) Gar nicht gut
+ANSWER: 
+
+Which category of injection attacks does the "Billion Laughs Attack" belong to?
+A) XXE
+B) XSS
+C) CSRF
+D) SQLi
+E) Malicious File Upload
+F) XPath Injection
+G) OS Command Injection
+ANSWER: A
+
+What is the MAIN problem that leads to sql injections?
+A) The application doesn't validate the input
+B) The application uses the wrong database management system
+C) The application mixes up query structure and user input
+D) The application uses an outdated and vulnerable database management system
+ANSWER: C
+
+What is the recommended minimum length of a secure session id?
+A) 32 Bit
+B) 96 Bit
+C) 128 Bit
+D) 256 Bit
+E) 512 Bit
+F) 1024 Bit
+ANSWER: B
+
+For which HTTP authentication method do you have better password storage possibilities?
+A) Basic
+B) Digest
+ANSWER: A
+
+Which algorithm would you use for password storage?
+A) SHA1(<password>)
+B) MD5(<password>)
+C) none of them
+ANSWER: 
+
+Which cipher attribute ensures the security of previous sessions if the server's long-term secret is compromised?
+A) PFS
+B) SFTP
+C) FSN
+D) TLS
+ANSWER: A
+
+Which one ist the current version of TLS?
+A) 1.2
+B) 1.3
+C) 1.4
+D) 1.5
+ANSWER: B
+
+Textest
+ANSWER: 
+
+Which messenger is a good example for the principle "Open Design"?
+A) WhatsApp
+B) Signal
+C) MS Teams
+ANSWER: B
+
+Which statements are true regarding the "Fail-Safe Defaults" principle?
+A) Whitelist is better than blacklist
+B) Security features should be shipped as opt-in possibilities to ensure best compatibility
+C) A user should explicitly type https if he wants an encrypted communication
+ANSWER: A
+
+Im Hinblick auf Web Security bin ich
+A) ultimate Hackerman - Mr. Robot style
+B) schon relativ erfahren
+C) ein Neuling
+D) was ist dieses "Web"?
+ANSWER: 
+
+Vor meinem FH Studium habe ich
+A) eine AHS absolviert
+B) eine BHS absolviert
+C) gearbeitet
+D) etwas ganz anderes gemacht
+ANSWER: 
+
+Ich komme aus
+A) Wien
+B) Niederösterreich
+C) Burgenland
+D) Steiermark
+E) Oberösterreich
+F) Salzburg
+G) Kärnten
+H) Tirol
+I) Vorarlberg
+J) Einem anderen schönen Ort in Europa
+K) Einem anderen schönen Ort außerhalb von Europa
+ANSWER: 
+
+Welche Farbe hat der Himmel
+A) Grün
+B) Blau
+C) Rot
+ANSWER: B

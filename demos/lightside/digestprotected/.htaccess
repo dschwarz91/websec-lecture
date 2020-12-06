@@ -1,0 +1,6 @@
+AuthType Digest
+AuthName "nowdigest"
+AuthDigestDomain "/digestprotected"
+AuthDigestProvider file
+AuthUserFile "/var/www/lightside/digestprotected/.htdigest"
+require valid-user 

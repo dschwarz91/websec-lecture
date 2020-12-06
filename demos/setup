@@ -1,0 +1,6 @@
+NOTE: all the stuff here is deliberately very insecure! Never deploy on a productive server!
+
+install apache, mod-php, mod-xml, mysql/maria-db
+update apache- and php-config according to ./apache.conf
+add the apache-user to the adm group so he can read the apache logfiles (needed for lightside/troubleshooting.php) and has some special privileges
+add darkside.me and lightside.me to hosts files (on all involved machines)

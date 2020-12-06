@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "who are you?"
+AuthUserFile "/var/www/lightside/basicprotected/.htpasswd"
+Require valid-user
+
+Order allow,deny
+Allow from all

@@ -1,0 +1,81 @@
+<html>
+	<head><title>Light Side</title></head>
+	<body>
+		<h1>Welcome to the light side!</h1>
+		Choose your demo:
+
+		<h2>Basic Web Procedure</h2>
+		<ul>
+			<li>Information Disclosure</li>
+			<ul>
+				<li><a href="#">HTTP-Header</a></li>
+				<li><a href="server-info">Error Message 1</a></li>
+				<li><a href="trouble.php">Error Message 2</a></li>
+				<li><a href="server-status">Status page</a></li>
+				<li><a href="202010">Directory listing</a></li>
+				<li><a href="robots.txt">robots.txt</a></li>
+			</ul>
+			<li><a href="shop/login.php">Plaintext Transmission</a></li>
+			<li><a href="htmlintro">HTML Intro</a></li>
+		</ul>
+
+		<h2>Authentication and Session Management</h2>
+		<ul>
+			<li><a href="shop/login.php">Form-based Auth</a></li>
+			<li><a href="basicprotected">HTTP Basic Auth</a></li>
+			<ul>
+				<li>Set AllowOverride to "All" for /var/www/ in /etc/apache2/apache2.conf</li>
+			</ul>
+			<li><a href="digestprotected">HTTP Digest Auth</a></li>
+			<li><a href="http://darkside.me/csrf">CSRF</a></li>
+			<li><a href="deathstar_csrf.html">CSRF Deathstar</a></li>
+			<li>Same Origin Policy and CORS</li>
+			<ul>
+				<li><a href="http://darkside.me/soreq.html">Darkside Same Origin Request</a></li>
+				<li><a href="http://darkside.me/coreq.html">Darkside Forbidden Cross Origin Request</a></li>
+				<li><a href="http://darkside.me/acoreq.html">Darkside Allowed Cross Origin Request</a></li>
+			</ul>
+		</ul>
+
+		<h2>Authorization</h2>
+		<ul>
+			<li><a href="authorization.html">Forceful Browsing (incomplete demo)</a></li>
+			<li><a href="invoice.php?f=inv_202010_luke.pdf">Path Traversal</a></li>
+			<li><a href="invoice_fixed.php?f=inv_202010_luke.pdf">Fixed Path Traversal</a></li>
+		</ul>
+
+		<h2>Server-side and Backend Attacks</h2>
+		<ul>
+			<li><a href="shop">Injection Lightsaber-Shop</a></li>
+				<ul>
+					<li><a href="shop/login.php">SQLi Login</a></li>
+					<li><a href="shop/login_fixed.php">Fixed SQL Login</a></li>
+					<li><a href="shop/blind.php">Blind SQLi</a></li>
+					<li><a href="shop/login_xpath.php">XPathi Login</a></li>
+					<li><a href="shop/users.xml"> Direct access to users.xml</a></li>
+				</ul>
+			<li><a href="troubleshooting.php">Troubleshooter</a></li>
+			<li><a href="upload.php">Uploader</a></li>
+			<li><a href="studentreg.php">Student Registration</a></li>
+		</ul>
+
+		<h2>Client-side Attacks</h2>
+		<ul>
+			<li><a href="forum">XSS Forum</a></li>
+			<li><a href="forum/domoverview.html?uname=luke">DOM-Overview</a></li>
+			<li><a href="forum/domoverviewpure.html#uname=luke">DOM-Overview Pure</a></li>
+			<li><a href="forum/domstored.html">DOM-Overview Stored</a></li>
+			<li><a href="forum/foverview_fixed.php?uname=luke">Forum fixed</a></li>
+			<li><a href="redirect">Redirect</a></li>
+			<li><a href="http://darkside.me/deathstar.php">Deathstar</a></li>
+			<li><a href="clickjacking.html">Clickjacking</a></li>
+		</ul>
+
+		<h2>General Topics</h2>
+		<ul>
+			<li><a href="serialization.php">Serialization</a></li>
+			<li><a href="logs/">Serialization Logs</a></li>
+			<li><a href="serialobjectcreator.php">Serial Object Creator</a></li>
+		</ul>
+	</body>
+</html>

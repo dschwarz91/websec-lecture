@@ -1,0 +1,19 @@
+<html>
+    <head><title>Jedi Forum 3000</title></head>
+    <body>
+        <script>
+            var req = new XMLHttpRequest()
+            req.open("GET", "http://lightside.me/forum/messages.json", false);
+            req.send();
+            var messages = JSON.parse(req.responseText).messages;
+
+            messages.forEach((message) => {
+                document.write("User: " + message.u + "<br>")
+                document.write("Message: " + message.m + "<br><br>")
+            });
+
+        </script>
+
+
+    </body>
+</html>

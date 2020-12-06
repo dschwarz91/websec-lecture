@@ -1,0 +1,422 @@
+<?xml version="1.0" ?>
+<quiz>
+  <question type='shortanswer'>
+    <name>
+      <text>
+        Gibt es Dinge die euch sehr gut (+) oder gar nicht gut (-) gefallen
+        haben? Und hat euch irgendetwas gefehlt (X) ?
+      </text>
+    </name>
+    <questiontext format='html'>
+      <text>
+        Gibt es Dinge die euch sehr gut (+) oder gar nicht gut (-) gefallen
+        haben? Und hat euch irgendetwas gefehlt (X) ?
+      </text>
+    </questiontext>
+    <answer fraction='100'>
+      <text> </text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Das Tempo der Erklärungen war</text>
+    </name>
+    <questiontext format='html'>
+      <text>Das Tempo der Erklärungen war</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>etwas zu schnell - habe einige Dinge nicht richtig verstanden</text>
+    </answer>
+    <answer fraction='0'>
+      <text>genau richtig - war alles verständlich</text>
+    </answer>
+    <answer fraction='0'>
+      <text>etwas zu langsam - teilweise bisschen langweilig</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Der inhaltliche Detailgrad war</text>
+    </name>
+    <questiontext format='html'>
+      <text>Der inhaltliche Detailgrad war</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>etwas zu detailliert</text>
+    </answer>
+    <answer fraction='0'>
+      <text>genau richtig</text>
+    </answer>
+    <answer fraction='0'>
+      <text>hätte gerne noch etwas mehr in die Tiefe gehen können</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Alles in allem fand ich die Vorlesung</text>
+    </name>
+    <questiontext format='html'>
+      <text>Alles in allem fand ich die Vorlesung</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>Top</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Ganz gut</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Geht so</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Gar nicht gut</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>
+        Which category of injection attacks does the &quot;Billion Laughs
+        Attack&quot; belong to?
+      </text>
+    </name>
+    <questiontext format='html'>
+      <text>
+        Which category of injection attacks does the &quot;Billion Laughs
+        Attack&quot; belong to?
+      </text>
+    </questiontext>
+    <answer fraction='100'>
+      <text>XXE</text>
+    </answer>
+    <answer fraction='0'>
+      <text>XSS</text>
+    </answer>
+    <answer fraction='0'>
+      <text>CSRF</text>
+    </answer>
+    <answer fraction='0'>
+      <text>SQLi</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Malicious File Upload</text>
+    </answer>
+    <answer fraction='0'>
+      <text>XPath Injection</text>
+    </answer>
+    <answer fraction='0'>
+      <text>OS Command Injection</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>What is the MAIN problem that leads to sql injections?</text>
+    </name>
+    <questiontext format='html'>
+      <text>What is the MAIN problem that leads to sql injections?</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>The application doesn&apos;t validate the input</text>
+    </answer>
+    <answer fraction='0'>
+      <text>The application uses the wrong database management system</text>
+    </answer>
+    <answer fraction='100'>
+      <text>The application mixes up query structure and user input</text>
+    </answer>
+    <answer fraction='0'>
+      <text>The application uses an outdated and vulnerable database management system</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>What is the recommended minimum length of a secure session id?</text>
+    </name>
+    <questiontext format='html'>
+      <text>What is the recommended minimum length of a secure session id?</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>32 Bit</text>
+    </answer>
+    <answer fraction='100'>
+      <text>96 Bit</text>
+    </answer>
+    <answer fraction='0'>
+      <text>128 Bit</text>
+    </answer>
+    <answer fraction='0'>
+      <text>256 Bit</text>
+    </answer>
+    <answer fraction='0'>
+      <text>512 Bit</text>
+    </answer>
+    <answer fraction='0'>
+      <text>1024 Bit</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>
+        For which HTTP authentication method do you have better password storage
+        possibilities?
+      </text>
+    </name>
+    <questiontext format='html'>
+      <text>
+        For which HTTP authentication method do you have better password storage
+        possibilities?
+      </text>
+    </questiontext>
+    <answer fraction='100'>
+      <text>Basic</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Digest</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Which algorithm would you use for password storage?</text>
+    </name>
+    <questiontext format='html'>
+      <text>Which algorithm would you use for password storage?</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>SHA1(&lt;password&gt;)</text>
+    </answer>
+    <answer fraction='0'>
+      <text>MD5(&lt;password&gt;)</text>
+    </answer>
+    <answer fraction='0'>
+      <text>none of them</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>
+        Which cipher attribute ensures the security of previous sessions if the
+        server&apos;s long-term secret is compromised?
+      </text>
+    </name>
+    <questiontext format='html'>
+      <text>
+        Which cipher attribute ensures the security of previous sessions if the
+        server&apos;s long-term secret is compromised?
+      </text>
+    </questiontext>
+    <answer fraction='100'>
+      <text>PFS</text>
+    </answer>
+    <answer fraction='0'>
+      <text>SFTP</text>
+    </answer>
+    <answer fraction='0'>
+      <text>FSN</text>
+    </answer>
+    <answer fraction='0'>
+      <text>TLS</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Which one ist the current version of TLS?</text>
+    </name>
+    <questiontext format='html'>
+      <text>Which one ist the current version of TLS?</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>1.2</text>
+    </answer>
+    <answer fraction='100'>
+      <text>1.3</text>
+    </answer>
+    <answer fraction='0'>
+      <text>1.4</text>
+    </answer>
+    <answer fraction='0'>
+      <text>1.5</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='shortanswer'>
+    <name>
+      <text>Textest</text>
+    </name>
+    <questiontext format='html'>
+      <text>Textest</text>
+    </questiontext>
+    <answer fraction='100'>
+      <text> </text>
+    </answer>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Which messenger is a good example for the principle &quot;Open Design&quot;?</text>
+    </name>
+    <questiontext format='html'>
+      <text>Which messenger is a good example for the principle &quot;Open Design&quot;?</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>WhatsApp</text>
+    </answer>
+    <answer fraction='100'>
+      <text>Signal</text>
+    </answer>
+    <answer fraction='0'>
+      <text>MS Teams</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>
+        Which statements are true regarding the &quot;Fail-Safe Defaults&quot;
+        principle?
+      </text>
+    </name>
+    <questiontext format='html'>
+      <text>
+        Which statements are true regarding the &quot;Fail-Safe Defaults&quot;
+        principle?
+      </text>
+    </questiontext>
+    <answer fraction='100'>
+      <text>Whitelist is better than blacklist</text>
+    </answer>
+    <answer fraction='0'>
+      <text>
+        Security features should be shipped as opt-in possibilities to ensure
+        best compatibility
+      </text>
+    </answer>
+    <answer fraction='0'>
+      <text>A user should explicitly type https if he wants an encrypted communication</text>
+    </answer>
+    <single>false</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Im Hinblick auf Web Security bin ich</text>
+    </name>
+    <questiontext format='html'>
+      <text>Im Hinblick auf Web Security bin ich</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>ultimate Hackerman - Mr. Robot style</text>
+    </answer>
+    <answer fraction='0'>
+      <text>schon relativ erfahren</text>
+    </answer>
+    <answer fraction='0'>
+      <text>ein Neuling</text>
+    </answer>
+    <answer fraction='0'>
+      <text>was ist dieses &quot;Web&quot;?</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Vor meinem FH Studium habe ich</text>
+    </name>
+    <questiontext format='html'>
+      <text>Vor meinem FH Studium habe ich</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>eine AHS absolviert</text>
+    </answer>
+    <answer fraction='0'>
+      <text>eine BHS absolviert</text>
+    </answer>
+    <answer fraction='0'>
+      <text>gearbeitet</text>
+    </answer>
+    <answer fraction='0'>
+      <text>etwas ganz anderes gemacht</text>
+    </answer>
+    <single>false</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Ich komme aus</text>
+    </name>
+    <questiontext format='html'>
+      <text>Ich komme aus</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>Wien</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Niederösterreich</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Burgenland</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Steiermark</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Oberösterreich</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Salzburg</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Kärnten</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Tirol</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Vorarlberg</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Einem anderen schönen Ort in Europa</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Einem anderen schönen Ort außerhalb von Europa</text>
+    </answer>
+    <single>false</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type='multichoice'>
+    <name>
+      <text>Welche Farbe hat der Himmel</text>
+    </name>
+    <questiontext format='html'>
+      <text>Welche Farbe hat der Himmel</text>
+    </questiontext>
+    <answer fraction='0'>
+      <text>Grün</text>
+    </answer>
+    <answer fraction='100'>
+      <text>Blau</text>
+    </answer>
+    <answer fraction='0'>
+      <text>Rot</text>
+    </answer>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+</quiz>

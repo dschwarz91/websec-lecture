@@ -1,0 +1,12 @@
+{
+    "messages": [
+        {
+            "u": "Yoda",
+            "m": "May the force be with us."
+        },
+        {
+            "u": "Obi-Wan",
+            "m": "Hey there, I'm using signal."
+        }
+    ]
+}

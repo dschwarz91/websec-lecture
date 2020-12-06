@@ -1,0 +1,36 @@
+Additional recommended reading for the different lecture chapters:
+==================================================================
+
+2) Principles
+-------------
+The Security Principles of Saltzer and Schroeder, Shostack: https://adam.shostack.org/blog/the-security-principles-of-saltzer-and-schroeder/
+Top 10 Design Flaws, IEEE Center for Secure Design: https://ieeecs-media.computer.org/media/technical-activities/CYBSI/docs/Top-10-Flaws.pdf
+
+3) Architecture
+---------------
+Sicheres Bereitstellen von Web-Angeboten (ISi-Webserver) (german only), BSI: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Internetsicherheit/isi_web_server_studie.pdf?__blob=publicationFile&v=2
+Architecture of web applications (german only): https://snikt.net/WebSec.pdf - Chapter 6.1
+DNS & HTTP & TLS: https://web.stanford.edu/class/cs253/    Lecture 01 & Lecture 02 & Lecture 11
+Frontend Architecture (german only): https://software-architektur.tv/   (Episode 20 & 27)
+
+4) Authentication
+-----------------
+OAuth != Authentication, OAuth: https://oauth.net/articles/authentication/
+Federated Identity Pattern, Microsoft: https://docs.microsoft.com/en-us/azure/architecture/patterns/federated-identity
+JSONP, W3Schools: https://www.w3schools.com/js/js_json_jsonp.asp
+XSSI, Hailperin: https://www.scip.ch/en/?labs.20160414
+
+6) Server Attacks
+-----------------
+File Upload, OWASP: https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+XXE Car Hacking, Foxglove Security: https://foxglovesecurity.com/2015/10/26/car-hacking-for-plebs-the-untold-story/
+
+7) Client Attacks
+-----------------
+XSS Prevention, OWASP: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+CSP Hilfestellungen, Foundeo Inc.: https://content-security-policy.com/
+
+8) General Topics
+-----------------
+Insecure Deserialization in Commons Collection, Foxglovesecurity: 
+https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/

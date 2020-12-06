@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <title>master</title>
+        <name>yoda</name>
+        <uname>mastery</uname>
+        <password>forgottenmypasswordIhave</password>
+    </user>
+    <user>
+        <name>luke skywalker</name>
+        <uname>luke</uname>
+        <password>whoismyfather?</password>
+    </user>
+    <user>
+        <name>han solo</name>
+        <uname>captain_han</uname>
+        <password>lovelea</password>
+    </user>
+</users>

@@ -1,0 +1,24 @@
+<!--TODO: create show-results and edit-results -->
+<html>
+    <head>
+        <title>Authorization</title>
+    </head>
+    <body>
+        <script>
+            function getPage(myAction){
+                var req = new XMLHttpRequest()
+                req.open("GET", "http://lightside.me/"+ myAction, false);
+                req.send()
+                d = document.getElementById("results")
+                d.innerHTML = req.responseText
+            }
+        </script>
+
+        <button onclick="getPage('show-results')">Show Results</button>
+        <button onclick="getPage('edit-results')" disabled>Edit Results</button>
+
+        <div id="results">
+
+        </div>
+    </body>
+</html>
