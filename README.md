@@ -1,5 +1,5 @@
 # Web Security Lecture
-This material was initially created for the lecture part of a web security university class at [FH St. Pölten](https://www.fhstp.ac.at/de/studium-weiterbildung/informatik-security/it-security) (~15h lecture, divided into four days).
+This material was initially created for the lecture part of a web security university class at [FH St. Pölten](https://www.fhstp.ac.at/de/studium-weiterbildung/informatik-security/it-security) (~15h lecture, divided into four days) and is intended for beginners and intermediates in this specialised field.
 
 It is released under [CC Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), so feel free to use it.
 
