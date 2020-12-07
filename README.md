@@ -1,5 +1,5 @@
 # Web Security Lecture
-This material was initially created for the lecture part of a web security university class at [FH St. Pölten](https://www.fhstp.ac.at/de/studium-weiterbildung/informatik-security/it-security) (~15h lecture, divided into four days) and is intended for beginners and intermediates in this specialised field.
+This material was initially created for the lecture part of a web security university class at [FH St. Pölten](https://www.fhstp.ac.at/de/studium-weiterbildung/informatik-security/it-security) (~15h lecture, divided into four days) and is intended for beginners and intermediates in this specialised field as well as for all levels of web developers.
 
 It is released under [CC Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), so feel free to use it.
 
@@ -21,7 +21,7 @@ To include an active part for the students as well as to gather some feedback I 
 They are directly mentioned in the pptx comments. (some of these comments are only in german right now - sorry for that)
 
 ## Related work and acknowledgements
-The following courses cover about the same topics (some aspects even in more detail), greatly inspired me during the material creation and are therefore higly recommended to have a look at:
+The following courses cover about the same topics (some aspects even in more detail). They greatly inspired me during the material creation and are therefore highly recommended to have a look at:
  * Feross Aboukhadijeh (Stanford)
    * https://web.stanford.edu/class/cs253/
  * Andreas Happe (FH/Technikum Wien)
