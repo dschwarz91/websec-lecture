@@ -19,11 +19,10 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : "";
                 if(!$mysqli->error){
                     $pic = $result->fetch_object();
 
-                    if ($pic !== NULL){
-                        echo '<img src="' . $pic->picture . '" />';
-                    }
+                    if ($pic !== NULL)
+                        echo 'Correct - the force is strong with you!';
                     else
-                        $errormsg = "Username or password is wrong.";
+                        echo "Incorrect - but don't be angry, anger is the path to the dark side...";
                 }
                 else
                     die($mysqli->error);

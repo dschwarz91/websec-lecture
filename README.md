@@ -15,7 +15,6 @@ To include an active part for the students as well as to gather some feedback I 
 ## Open TODOs for demos
  * replacing XmlHttpRequests() with fetch()
  * adding Python examples (currently everything is in PHP)
- * correcting the blind-sqli demo - currently it's not really blind because the result is returned in the img-src.
 
 ## Open TODOs for slides
 They are directly mentioned in the pptx comments. (some of these comments are only in german right now - sorry for that)
