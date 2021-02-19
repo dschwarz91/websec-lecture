@@ -13,6 +13,7 @@ HTTP Methods, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Method
 HTTP Response Codes, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 TLS Policies, Mozilla | https://wiki.mozilla.org/Security/Server_Side_TLS
 HSTS Preload List | https://hstspreload.org/
+Can I use | https://caniuse.com/
 Password Policy | https://crambler.com/password-security-why-secure-passwords-need-length-over-complexity/
 Your Pa$$word doesn't matter | https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984
 User Authentication with OAuth 2.0, OAuth | https://oauth.net/articles/authentication/
