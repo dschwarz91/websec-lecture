@@ -12,6 +12,7 @@ Hacker101, HackerOne | https://www.hacker101.com/
 HTTP Methods, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 HTTP Response Codes, Mozilla | https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 TLS Policies, Mozilla | https://wiki.mozilla.org/Security/Server_Side_TLS
+SSL Configuration Generator, Mozilla | https://ssl-config.mozilla.org
 HSTS Preload List | https://hstspreload.org/
 Can I use | https://caniuse.com/
 Password Policy | https://crambler.com/password-security-why-secure-passwords-need-length-over-complexity/
