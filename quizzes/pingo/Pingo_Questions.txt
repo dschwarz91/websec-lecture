@@ -78,7 +78,7 @@ C) MS Teams
 ANSWER: B
 
 Which statements are true regarding the "Fail-Safe Defaults" principle?
-A) Whitelist is better than blacklist
+A) Explicit allowlist is better than blocklist
 B) Security features should be shipped as opt-in possibilities to ensure best compatibility
 C) A user should explicitly type https if he wants an encrypted communication
 ANSWER: A

@@ -288,7 +288,7 @@
       </text>
     </questiontext>
     <answer fraction='100'>
-      <text>Whitelist is better than blacklist</text>
+      <text>Explicit allowlist is better than blocklist</text>
     </answer>
     <answer fraction='0'>
       <text>
