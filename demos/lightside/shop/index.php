@@ -19,6 +19,17 @@
                 padding: 15px;
             }
         </style>
+        <script>
+            function checkStock(url, id){
+                fetch("http://lightside.me/shop/stockChecker.php?url="+ url + '&id=' + id)
+                    .then(response => response.text()).then(data => {
+                        document.getElementById('lblStock').innerText = data;
+                    })
+                    .catch(error => {
+                        alert("No stock data available.");
+                    });
+            }
+        </script>
     </head>
     <body>
         <h1>Ultimate Lightsaber Shop</h1>
@@ -43,12 +54,13 @@
             <table>
             <?php
                 if (isset($_GET["sid"])){
-                    $sql = "Select id, title, descr, price, picture from lightsabers where id = '" . $_GET['sid'] . "';";
+                    $sql = "Select id, title, descr, price, picture, partnershop from lightsabers where id = '" . $_GET['sid'] . "';";
                     $results = $mysqli->query($sql);
                     if(!$mysqli->error){
                         while ($row = $results->fetch_object()){
                             echo '<tr>';
                             echo '<td>'.$row->id.'</td><td>'.$row->title.'</td><td>'.$row->descr.'</td><td>'.$row->price.'</td><td><img src="'.$row->picture.'"/></td>';
+                            echo '<td><input type="submit" name="checkStock" value="Check Availability" onclick="checkStock(\''.$row->partnershop.'\', \''.$row->id.'\')"/><label id="lblStock" style="margin-left:5px;"></label></td>';
                             echo '</tr>';
                         }
                     }
