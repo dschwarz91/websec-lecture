@@ -9,12 +9,12 @@
 	$filename = $_GET['f'];
 	$dir = "/202010/";
 	$targetDir = getcwd().$dir;
-	$target = ".".$dir.$filename;
+	$target = $targetDir.$filename;
 
-	echo("Unfiltered target: {$target}<br><br>");
-	echo("Canon. target: ".realpath($target)."<br>");
+	echo("Unfiltered target: {$target}<br>");
 	echo("Target Dir: {$targetDir}<br>");
-
+	echo("Canon. target: ".realpath($target)."<br><br>");
+	
 	if(startsWith(realpath($target), $targetDir))
 		echo "Everything fine -> deliver file";
 	else
