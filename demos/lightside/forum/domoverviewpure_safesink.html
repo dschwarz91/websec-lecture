@@ -1,0 +1,12 @@
+<html>
+    <head><title>Jedi Forum 3000</title></head>
+    <body>
+        <script>
+            var uname = (new URLSearchParams(window.location.hash.substr(1))).get('uname');
+        </script>
+
+        <h1 id="greeting2">Welcome </h1>
+        <script>document.getElementById("greeting2").insertAdjacentText('beforeend', uname)</script>
+        
+    </body>
+</html>

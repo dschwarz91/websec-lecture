@@ -1,0 +1,12 @@
+<html>
+    <head><title>Jedi Forum 3000</title></head>
+    <body>
+        <script type="text/javascript" src="http://lightside.me/forum/dompurify/purify.min.js"></script>
+        <script>
+            var uname = (new URLSearchParams(window.location.hash.substr(1))).get('uname');
+        </script>
+
+        <h1>Welcome <script>document.write(DOMPurify.sanitize(uname))</script></h1>
+
+    </body>
+</html>
