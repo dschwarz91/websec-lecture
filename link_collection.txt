@@ -4,6 +4,7 @@ Top 10 Design Flaws, IEEE Center for Secure Design | https://ieeecs-media.comput
 OWASP Top 10, OWASP | https://owasp.org/www-project-top-ten/
 OWASP ASVS, OWASP | https://owasp.org/www-project-application-security-verification-standard/
 OWASP Security Testing Guide, OWASP | https://owasp.org/www-project-web-security-testing-guide/
+OWASP Cheat Sheet Series, OWASP | https://cheatsheetseries.owasp.org/
 CS 253 Web Security, Aboukhadijeh | https://web.stanford.edu/class/cs253/
 Web Security, Happe | https://snikt.net/WebSec.pdf
 IT Security Lecture, Kimminich | https://github.com/bkimminich/it-security-lecture
